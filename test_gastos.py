@@ -42,6 +42,7 @@ def test_flujo_completo_gastos():
     lista_gastos = [gasto1, gasto2, gasto3]
     total = calcular_total_gastos(lista_gastos)
     promedio = calcular_promedio_gastos(lista_gastos)
+    print(f"Total calculado: {total}")
+    print(f"Promedio calculado: {promedio}")
     assert total == 350.0
     assert promedio == 116.66666666666667
-    
